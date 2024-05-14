@@ -14,11 +14,14 @@
 ```ruby
    git clone [repository URL]
 ```
-02. Move the Project File to Exact Location Blow Shown.
+
+02. Unzip the Project File.
+
+03. Move the Project File to Exact Location Blow Shown.
 ```
    users/[user-account]/GNS3/projects/
 ```
-03. Get Install the Devices.
+04. Get Install the Devices.
 ```
 Use the Device Inside **Devices** Folder
 ```
@@ -27,6 +30,6 @@ Use the Device Inside **Devices** Folder
 > 
 > link 2 : [labhub](https://labhub.eu.org/)
 
-04. Inside Configuration Files Folder you can get the **startup-configuration** Files for each Device, Import the Files into each Device Correctly. Otherwise You'll have Troubles.
+05. Inside Configuration Files Folder you can get the **startup-configuration** Files for each Device, Import the Files into each Device Correctly. Otherwise You'll have Troubles.
 
-05. Inside each LAB Folder you'll have Question and Answers. 
+06. Inside each LAB Folder you'll have Question and Answers. 
