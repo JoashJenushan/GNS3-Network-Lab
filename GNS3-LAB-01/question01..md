@@ -2,13 +2,33 @@
 
 ![LAB-Preview](https://github.com/JoashJenushan/GNS3-Network-Lab/assets/137409476/aad36875-dd70-4ff8-91dd-2dce2a95e74f)
 
-# Question 01.
-> [!NOTE]
-> 
-> I started wireshark to monitor packets from <code>**Switch03 Ethernet 0/1 to Switch01 Ethernet 0/2**</code> interfaces, pinging PC5 from PC1, but I didn't notice any packets / (ICMP) flowing in that captured interface. However, the ping was successful.
-> 
-> Check the wireshark File Name "<code>**Switch03-Ethernet01 to Switch01-Ethernet02**</code>"
+> [!IMPORTANT]
+> An engineer monitored the PortChannel between <code>**Switch03 to Switch01**</code>, which is configured as PortChannel 3. The PortChannel consists of two interfaces.
+> When the engineer pings a **Server from miniOS-02**, they observe the following behavior in Wireshark:
 >
-> Again, I started wireshark to monitor packets from <code>**Switch03 Ethernet 0/0 to Switch01 Ethernet 0/1**</code> interfaces, pinging the same PC5 from PC1, this time wireshark could able to capture packets / (ICMP).
+>     On one interface, they capture ICMP ping requests to the server.
 > 
-> Which sents from PC1 <code>**112.18.1.4 | 72.168.8.2 | ICMP | Echo (ping) request id=0xa42d, seq=5/1280, ttl=64 (reply in 50)**</code>
+>     On the other interface, they capture ICMP ping replies from the server.
+>
+> ![ping](https://github.com/JoashJenushan/GNS3-Network-Lab/assets/137409476/79008eda-f7d0-4dd2-b723-8cb439c6fadd)
+>
+
+# Question.
+
+**What is the most likely reason for this observed behavior?**
+
+A) Load balancing mechanism of the PortChannel.
+
+B) Packet filtering applied on the interfaces.
+
+C) Misconfiguration of the PortChannel settings.
+
+D) setting of the port priority on the interfaces.
+
+E) A configuration error unrelated to port priority settings.
+
+
+> [!TIP]
+> Analyze the wireshark logs files and configurations👍👍.
+> 
+> These files in folders.
