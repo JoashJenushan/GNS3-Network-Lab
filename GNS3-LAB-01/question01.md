@@ -1,6 +1,6 @@
 # This is the LAB-01 Preview.
 
-![LAB-Preview](https://github.com/JoashJenushan/GNS3-Network-Lab/assets/137409476/aad36875-dd70-4ff8-91dd-2dce2a95e74f)
+![LAB-preview](https://github.com/JoashJenushan/GNS3-Network-Lab/assets/137409476/1d94d0c6-eae7-41f9-8eff-a8f7534b1e73)
 
 > [!IMPORTANT]
 > An engineer monitored the PortChannel between <code>**Switch03 to Switch01**</code>, which is configured as PortChannel 3. The PortChannel consists of two interfaces.
